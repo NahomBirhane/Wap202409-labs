@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop Registration Form</title>
+    <link rel="stylesheet" href="./lab2.css">
+    <link href="../images/home.logo.jpg" type="image/jpeg" rel="shortcut icon">
+</head>
+<body>
+    <div class="registration-container">
+        <header>
+            <h1>Workshop Registration</h1>
+            <div class="header-actions">More Actions ▼</div>
+        </header>
+
+        <h3>Register now while seats are available!</h3>
+
+        <div class="form-container">
+            <form class="form-left">
+                <div class="form-group">
+                    <label for="first-name">First Name <span>*</span></label>
+                    <input type="text" id="first-name" name="first-name" required autofocus>
+                </div>
+
+                <div class="form-group">
+                    <label for="last-name">Last Name <span>*</span></label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="company">Company/Institution <span>*</span></label>
+                    <input type="text" id="company" name="company" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Address <span>*</span></label>
+                    <textarea id="address" name="address" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city">
+                </div>
+
+                <div class="form-group">
+                    <label for="state">State / Province / Region</label>
+                    <select id="state" name="state">
+                        <option value="">-Select-</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="country">Country</label>
+                    <select id="country" name="country">
+                        <option value="">-Select-</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email <span>*</span></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number <span>*</span></label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+            </form>
+
+            <!-- Right Side Form -->
+            <form class="form-right">
+                <h4>Lunch</h4>
+                <div class="form-group">
+                    <label for="meal-preference">Meal Preference</label>
+                    <select id="meal-preference" name="meal-preference">
+                        <option value="vegetarian">Vegetarian</option>
+                    </select>
+                </div>
+
+                <h4>Payment Details</h4>
+                <div class="form-group">
+                    <label>Payment Mode</label>
+                    <div class="payment-mode">
+                        <div>
+                            <input type="checkbox" id="cash" name="payment-mode" value="cash">
+                            <label for="cash">Cash</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="cheque" name="payment-mode" value="cheque">
+                            <label for="cheque">Cheque</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="demand-draft" name="payment-mode" value="demand-draft">
+                            <label for="demand-draft">Demand Draft</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="cheque-no">DD/Cheque No.</label>
+                    <input type="text" id="cheque-no" name="cheque-no">
+                </div>
+
+                <div class="form-group">
+                    <label for="bank-name">Drawn On (Bank Name)</label>
+                    <input type="text" id="bank-name" name="bank-name">
+                </div>
+
+                <div class="form-group">
+                    <label for="payable-at">Payable at</label>
+                    <input type="text" id="payable-at" name="payable-at">
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <div class="form-actions">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+                <div class="validation-logos">
+                    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fnahombirhane.github.io%2FWap202409-labs%2Flab-1%2Flab1.html">
+                        <img src="../images/w3c-html5-logo.png" alt="W3C HTML5 Logo">
+                    </a>
+                    <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fnahombirhane.github.io%2FWap202409-labs%2Flab-1%2Flab1.html">
+                        <img src="../images/vcss.png" alt="W3C CSS Logo">
+                    </a>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: 14px;
+}
+
+.registration-container {
+    border: 2px solid #9ec4b3;
+    background-color: #fff;
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #9ec4b3;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid #9ec4b3;
+    width: calc(100% + 4px);
+    margin-left: -2px;
+    margin-top: -2px;
+}
+
+header h1 {
+    margin: 6px 0;
+    padding-left: 8px;
+    margin-right: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.header-actions {
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px; 
+    display: flex;
+    align-items: center;
+}
+
+h3, h4 {
+    font-weight: normal;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    padding-left: 8px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+.form-container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-left,
+.form-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding-left: 8px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    min-width: 150px;
+    font-size: 13px;
+}
+
+label span {
+    color: red;
+}
+
+input, select, textarea {
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+.payment-mode {
+    display: inline-block;
+}
+
+.payment-mode div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.payment-mode input {
+    margin-right: 5px;
+}
+
+.payment-mode label {
+    font-weight: normal;
+    margin: 0;
+    font-size: 13px;
+}
+
+footer {
+    background-color: #e5e2e2;
+    padding: 0;
+    margin: 0;
+    width: calc(100%);
+    margin-left: 0px;
+    margin-top: 8px;
+    border-bottom: 2px solid #9ec4b3;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+    flex-grow: 1;
+}
+
+button {
+    padding: 6px 16px;
+    background-color: #9ec4b3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+button:hover {
+    background-color: #7fa58f;
+}
+
+.validation-logos {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.validation-logos img {
+    width: 40px;
+    height: auto;
+}
