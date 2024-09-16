@@ -15,7 +15,7 @@ class University {
   }
 }
 
-let miu = new University("MIU", "MSD");
+let miu: University =  University("MIU", "MSD");
 miu.graduation(2025);
 
 // Exercise-2
